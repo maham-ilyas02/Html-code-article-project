@@ -1,2 +1,219 @@
-# Html-code-article-project
-Html article displayed as a live webpage and the source code for learning purposes.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A complete professional guide to HTML covering structure, elements, best practices, accessibility, and real-world usage.">
+    <meta name="keywords" content="HTML, Web Development, HTML Basics, Frontend Development">
+    <meta name="author" content="Maham Ilyas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Comprehensive Guide to HTML</title>
+
+    <!-- Background Color & Basic Styling -->
+    <style>
+        body {
+            background-color: #f4f6f8;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header, section, footer {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>A Comprehensive Guide to HTML</h1>
+    <p>
+        <strong>HTML (HyperText Markup Language)</strong> is the backbone of the web.
+        Every website — from simple blogs to complex applications — relies on HTML
+        to structure its content.
+    </p>
+</header>
+
+<section>
+    <h2>1. Introduction to HTML</h2>
+    <p>
+        HTML stands for <em>HyperText Markup Language</em>. It is the standard language
+        used to create and structure web pages.
+    </p>
+
+    <p>
+        HTML focuses on structure and meaning rather than appearance or logic.
+        Styling is handled by CSS, while interactivity is handled by JavaScript.
+    </p>
+</section>
+
+<section>
+    <h2>2. Basic Structure of an HTML Document</h2>
+    <p>
+        Every HTML document follows a consistent structure so browsers can
+        correctly interpret and display the content.
+    </p>
+
+    <ol>
+        <li><strong>&lt;!DOCTYPE html&gt;</strong> – Declares HTML5</li>
+        <li><strong>&lt;html&gt;</strong> – Root element</li>
+        <li><strong>&lt;head&gt;</strong> – Metadata and resources</li>
+        <li><strong>&lt;body&gt;</strong> – Visible content</li>
+    </ol>
+</section>
+
+<section>
+    <h2>3. Commonly Used HTML Elements</h2>
+    <ul>
+        <li><strong>Headings:</strong> &lt;h1&gt;–&lt;h6&gt;</li>
+        <li><strong>Paragraphs:</strong> &lt;p&gt;</li>
+        <li><strong>Links:</strong> &lt;a&gt;</li>
+        <li><strong>Images:</strong> &lt;img&gt;</li>
+        <li><strong>Lists:</strong> &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</li>
+        <li><strong>Containers:</strong> &lt;div&gt;, &lt;section&gt;</li>
+    </ul>
+</section>
+
+<section>
+    <h2>4. Importance of Semantic HTML</h2>
+    <p>
+        Semantic HTML uses meaningful tags like
+        <code>&lt;header&gt;</code>,
+        <code>&lt;article&gt;</code>,
+        <code>&lt;nav&gt;</code>, and
+        <code>&lt;footer&gt;</code>.
+    </p>
+
+    <p>Semantic HTML improves:</p>
+    <ul>
+        <li>Accessibility for assistive technologies</li>
+        <li>Search engine optimization (SEO)</li>
+        <li>Code readability and maintainability</li>
+    </ul>
+</section>
+
+<section>
+    <h2>5. HTML Forms</h2>
+    <p>
+        Forms allow users to submit data to a website. They are essential for
+        login pages, contact forms, and surveys.
+    </p>
+
+    <p>Common form elements include:</p>
+    <ul>
+        <li>&lt;form&gt;</li>
+        <li>&lt;input&gt;</li>
+        <li>&lt;label&gt;</li>
+        <li>&lt;textarea&gt;</li>
+        <li>&lt;button&gt;</li>
+    </ul>
+</section>
+
+<section>
+    <h2>6. Tables in HTML</h2>
+    <p>
+        Tables are used to display structured data such as reports or comparisons.
+    </p>
+
+    <p>
+        Important table elements include
+        <code>&lt;table&gt;</code>,
+        <code>&lt;tr&gt;</code>,
+        <code>&lt;th&gt;</code>, and
+        <code>&lt;td&gt;</code>.
+    </p>
+</section>
+
+<section>
+    <h2>7. Accessibility in HTML</h2>
+    <p>
+        Accessibility ensures that websites can be used by people with disabilities.
+        HTML plays a crucial role in building accessible web experiences.
+    </p>
+
+    <ul>
+        <li>Always use <code>alt</code> attributes for images</li>
+        <li>Use proper heading hierarchy</li>
+        <li>Label form inputs correctly</li>
+        <li>Use semantic elements</li>
+    </ul>
+</section>
+
+<section>
+    <h2>8. SEO and HTML</h2>
+    <p>
+        Search engines rely heavily on HTML structure to understand web pages.
+        Clean, semantic HTML improves ranking and discoverability.
+    </p>
+
+    <ul>
+        <li>Use descriptive page titles</li>
+        <li>Include meta descriptions</li>
+        <li>Structure content with headings</li>
+        <li>Use meaningful links</li>
+    </ul>
+</section>
+
+<section>
+    <h2>9. HTML Best Practices</h2>
+    <ol>
+        <li>Write clean and readable code</li>
+        <li>Use indentation consistently</li>
+        <li>Avoid unnecessary elements</li>
+        <li>Validate your HTML</li>
+        <li>Keep learning HTML standards</li>
+    </ol>
+</section>
+
+<section>
+    <h2>10. Real-World Applications of HTML</h2>
+    <ul>
+        <li>Portfolio websites</li>
+        <li>Corporate websites</li>
+        <li>Blogs and CMS platforms</li>
+        <li>Web applications</li>
+        <li>Online documentation</li>
+    </ul>
+</section>
+
+<section>
+    <h2>11. Conclusion</h2>
+    <p>
+        HTML is a fundamental skill for anyone entering web development.
+        Mastering it provides a strong foundation for CSS, JavaScript, and
+        modern frameworks.
+    </p>
+
+    <p>
+        No matter how advanced web technologies become, clean and semantic HTML
+        will always remain essential.
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 | Created by Maham Ilyas</p>
+
+</footer>
+
+</body>
+</html>
